@@ -1,4 +1,4 @@
-# (WIP) sample-mysql-overlay
+# sample-mysql-overlay
 
 Sample overlay for the baseline InSpec profile at https://github.com/mitre/oracle-mysql-ee-5.7-cis-baseline with modifications based on our projects different requirements. The baseline InSpec profile is used validate the secure configuration of Oracle MySQL EE 5.7 against the CIS Oracle MySQL EE 5.7 Benchmark 1.0.0.
 
