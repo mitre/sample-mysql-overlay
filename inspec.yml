@@ -1,10 +1,10 @@
 name: sample-mysql-overlay
 title: sample-mysql-overlay
-maintainer: ACME organization
+maintainer: "Project" organization
 copyright: 
 copyright_email: 
 license: Apache-2.0
-summary: Sample Organizations Overlay InSpec Validation Profile for MySQL
+summary: Sample Project's Overlay InSpec Validation Profile for MySQL
 version: 0.1.0
 inspec_version: ">= 4.0"
 
@@ -13,25 +13,29 @@ depends:
     url: https://github.com/mitre/oracle-mysql-ee-5.7-cis-baseline/archive/master.tar.gz
 
 inputs:
-  - name: mysql_config_file
-    description: 'Full path of the MySQL config file'
-    type: string
-    value: ''
-    profile: oracle-mysql-ee-5.7-cis-baseline
-    
   - name: user
     description: 'username MySQL DB Server'
     type: string
     value: ''
     sensitive: true
+    profile: oracle-mysql-ee-5.7-cis-baseline
 
   - name: password
     description: 'password MySQL DB Server'
     type: string
     value: ''
     sensitive: true
+    profile: oracle-mysql-ee-5.7-cis-baseline
 
   - name: host
     description: 'hostname of MySQL DB Server'
     value: ''
     sensitive: true
+    profile: oracle-mysql-ee-5.7-cis-baseline
+
+  - name: mysql_administrative_users
+    description: 'List of mysql administrative users'
+    type: array
+    value: ['root']
+    sensitive: true
+    profile: oracle-mysql-ee-5.7-cis-baseline
