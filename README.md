@@ -1,6 +1,6 @@
 # sample-mysql-overlay
 
-Sample overlay for the baseline InSpec profile at https://github.com/mitre/oracle-mysql-ee-5.7-cis-baseline with modifications based Our Project's different policy compliance baseline requirements. The baseline InSpec profile is used validate the secure configuration of Oracle MySQL EE 5.7 against the CIS Oracle MySQL EE 5.7 Benchmark 1.0.0.
+Sample overlay for the baseline InSpec profile at https://github.com/mitre/oracle-mysql-ee-5.7-cis-baseline with modifications based Our Project's different policy compliance requirements. The baseline InSpec profile is used validate the secure configuration of Oracle MySQL EE 5.7 against the CIS Oracle MySQL EE 5.7 Benchmark 1.0.0.
 
 ## Getting Started  
 It is intended and recommended that InSpec and this profile overlay be run from a __"runner"__ host (such as a DevOps orchestration server, an administrative management system, or a developer's workstation/laptop) against the target remotely over __ssh__.
